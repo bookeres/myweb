@@ -1,6 +1,110 @@
-<html>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CMU Electronics Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #6a1b9a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 60px;
+      vertical-align: middle;
+    }
+    header h1 {
+      display: inline;
+      margin-left: 15px;
+      font-size: 28px;
+    }
+    .tagline {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .products {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 30px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 300px;
+      margin: 15px;
+      text-align: center;
+      padding: 20px;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .product h2 {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .product p {
+      font-size: 16px;
+      color: #333;
+    }
+    .price {
+      color: #d32f2f;
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #6a1b9a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
 <body>
-<h1>Your Name Here</h1>
-<h2> Your student code here</h2>
+
+  <header>
+    <img src="logo.png" alt="โลโก้ร้าน" />
+    <h1>CMU Electronics Store</h1>
+    <div class="tagline">💡 เครื่องใช้ไฟฟ้าคุณภาพ ราคานักศึกษา ส่งฟรีถึงหอ!</div>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="fan.jpg" alt="พัดลม">
+      <h2>พัดลมตั้งโต๊ะ</h2>
+      <p>เย็นสบาย ประหยัดไฟ เหมาะกับห้องหอพัก</p>
+      <div class="price">฿399</div>
+    </div>
+    <div class="product">
+      <img src="ricecooker.jpg" alt="หม้อหุงข้าว">
+      <h2>หม้อหุงข้าวอัตโนมัติ</h2>
+      <p>หุงข้าวง่ายๆ ในไม่กี่นาที พร้อมระบบอุ่นอัตโนมัติ</p>
+      <div class="price">฿599</div>
+    </div>
+    <div class="product">
+      <img src="lamp.jpg" alt="โคมไฟ">
+      <h2>โคมไฟอ่านหนังสือ LED</h2>
+      <p>แสงถนอมสายตา ปรับระดับความสว่างได้</p>
+      <div class="price">฿249</div>
+    </div>
+  </section>
+
+  <footer>
+    📍 ร้านตั้งอยู่ใกล้มหาวิทยาลัยเชียงใหม่ | ติดต่อ: 099-123-4567 | Line: @cmu.elec
+  </footer>
+
 </body>
 </html>
